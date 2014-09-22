@@ -168,3 +168,5 @@ commands:
 
 def main():
     parse_options()
+
+__all__ = ['main', 'parse_options']

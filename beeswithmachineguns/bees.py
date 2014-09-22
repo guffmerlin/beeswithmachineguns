@@ -474,7 +474,7 @@ def attack(url, n, c, **options):
         params.append({
             'i': i,
             'instance_id': instance.id,
-            'instance_name': instance.public_dns_name,
+            'instance_name': instance.ip_address,
             'url': url,
             'concurrent_requests': connections_per_instance,
             'num_requests': requests_per_instance,
